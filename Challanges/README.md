@@ -5,7 +5,9 @@ the importance of comments in my code for other's reading my code,methods for ge
 
 # Skills
 
-In the most basic terms, a developers job is to solve problems. These problems can range from something of great scientific or national importance, through to something trivial or fun. 
+In the most basic terms, a developers job is to solve problems. 
+
+These problems can range from something of great scientific or national importance, through to something trivial or fun. 
 
 # The general steps that you follow are:
 
