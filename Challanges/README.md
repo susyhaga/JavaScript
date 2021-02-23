@@ -10,7 +10,9 @@ In the most basic terms, a developers job is to solve problems. These problems c
 # The general steps that you follow are:
 
 Identify the overall problem
+
 Break it in to smaller tasks
+
 Write psudeo code for tasks
 
 # Languages
