@@ -1,4 +1,4 @@
-#Validate Pin Challanges
+# Validate Pin Challanges
 
 Create a function to test if a string is a valid pin or not.
 
