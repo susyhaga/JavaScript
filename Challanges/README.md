@@ -1,4 +1,4 @@
-### JavaScript Challenges 
+# JavaScript Challenges 
 
 Every developer needs to build their skills and coding challenges are a good way to do this. This repo is an example that I provide for you to show them,
 
@@ -11,7 +11,7 @@ how to utilize tests for code evaluation
 Skills
 In the most basic terms, a developers job is to solve problems. These problems can range from something of great scientific or national importance, through to something trivial or fun!
 
-The general steps that you follow are:
+# The general steps that you follow are:
 
 Identify the overall problem
 Break it in to smaller tasks
@@ -21,6 +21,6 @@ Test
 Document your solution
 You will often need to do steps 3-5 multiple times as there are factors that you forgot to consider and the documentation should be done throughout the coding process but often isn't :)
 
-Languages
+# Languages
 Javascript
 
