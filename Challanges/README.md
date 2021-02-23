@@ -12,10 +12,6 @@ In the most basic terms, a developers job is to solve problems. These problems c
 Identify the overall problem
 Break it in to smaller tasks
 Write psudeo code for tasks
-Convert psudeo code to the programming language of your choice
-Test
-Document your solution
-You will often need to do steps 3-5 multiple times as there are factors that you forgot to consider and the documentation should be done throughout the coding process but often isn't. 
 
 # Languages
 Javascript
