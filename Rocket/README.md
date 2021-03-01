@@ -15,8 +15,3 @@ Stop the Functional rocket from taking off
 # Think about
 How we prevent components from re-rendering
 
-# Visual
-
-x-special/nautilus-clipboard
-copy
-file:///home/susy/Desktop/rocket.png
