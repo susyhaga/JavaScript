@@ -7,9 +7,9 @@ In this test there are several correct answers, as the objective is to evaluate 
 
 Pairing/Small Coding Challenge rocket
 
-# Difficulty: 
+# Difficulty 
 
-Easy | Time required: < 30 minutes
+Easy | Time required: < 40 minutes
 
 # Requirements
 
