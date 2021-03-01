@@ -6,9 +6,6 @@ In this test there are several correct answers, as the objective is to evaluate 
 # Rocket Ship
 Pairing/Small Coding Challenge rocket
 
-# Difficulty
-Easy | Time required: < 40 minutes
-
 # Requirements
 Stop the Class rocket from taking off
 
