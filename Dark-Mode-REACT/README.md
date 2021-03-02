@@ -6,7 +6,7 @@ Add dark-mode switching functionality to the existing dark-mode button.
 
 Utilise the existing dark-mode scss file by adding a dark-mode class to the root html element.
 
-# When in Dark mode:
+# When in Dark mode
 
 The button icon should be faSun
 
