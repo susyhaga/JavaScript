@@ -11,6 +11,6 @@ How to get and call a function from a input submit.
 Hot to respond to an event when the button is clicked. 
 
 # Tools
-HTML and JavaScript
+HTML,JavaScript, Test
 
 
