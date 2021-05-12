@@ -1,7 +1,6 @@
-class Solution {
-    public int solution(int N) {
-    // write your code in JavaScript (Node.js 6.4.0)
-      var maxGap = 0;
+
+     function solution(N) {
+     var maxGap = 0;
     var curMaxGap = 0;
     var binStr = N.toString(2);
     var startIndexFromEnd = binStr.length-1;
@@ -22,4 +21,3 @@ class Solution {
     }
     return maxGap;
     }
-}
