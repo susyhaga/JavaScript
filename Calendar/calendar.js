@@ -1,10 +1,12 @@
+//const { ConsoleWriter } = require("istanbul-lib-report");
+
 today = new Date();
 currentMonth = today.getMonth();
 currentYear = today.getFullYear();
 selectYear = document.getElementById("year");
 selectMonth = document.getElementById("month");
 
-let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 monthAndYear = document.getElementById("monthAndYear");
 showCalendar(currentMonth, currentYear);
@@ -20,7 +22,7 @@ function previous() {
     currentYear = (currentMonth === 0) ? currentYear - 1 : currentYear;
     currentMonth = (currentMonth === 0) ? 11 : currentMonth - 1;
     showCalendar(currentMonth, currentYear);
-}
+}                
 
 function jump() {
     currentYear = parseInt(selectYear.value);
@@ -34,10 +36,10 @@ function showCalendar(month, year) {
 
     tbl = document.getElementById("calendar-body"); // body of the calendar
 
-    // clearing all previous cells
+    // clearing all previous cells ..... innerHTML manda infos do JS para HTML-H
     tbl.innerHTML = "";
 
-    // filing data about month and in the page via DOM.
+    // filing data about month and in the page via DOM. months eh o parametro de entrada da funcao showCalendar...
     monthAndYear.innerHTML = months[month] + " " + year;
     selectYear.value = year;
     selectMonth.value = month;
@@ -64,7 +66,7 @@ function showCalendar(month, year) {
                 cell = document.createElement("td");
                 cellText = document.createTextNode(date);
                 if (date === today.getDate() && year === today.getFullYear() && month === today.getMonth()) {
-                    cell.classList.add("bg-info");
+                    cell.classList.add("bg-danger");
                 } // color today's date
                 cell.appendChild(cellText);
                 row.appendChild(cell);
@@ -83,4 +85,30 @@ function showCalendar(month, year) {
 // check how many days in a month code from https://dzone.com/articles/determining-number-days-month
 function daysInMonth(iMonth, iYear) {
     return 32 - new Date(iYear, iMonth, 32).getDate();
+}
+
+
+//MY AGENDA
+
+
+var myEvents=
+    { "hour10": "Guitar class",
+      "hour14": "Frauenloop homework",
+      "hour19": "Working out",
+      "hour22": "Taking pills"
+    }
+
+
+
+var listKeys = Object.keys(myEvents)
+
+lenghtEvents = listKeys.length;
+
+for (let i=0;i<lenghtEvents;i++){
+  console.log("type of list " + typeof listKeys[i]+ ' ' +listKeys[i]);
+key = listKeys[i];
+time = document.getElementById(key);
+timeId = String(time.id);
+time.innerHTML=myEvents[timeId];
+
 }
