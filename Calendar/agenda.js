@@ -14,11 +14,11 @@ var listKeys = Object.keys(myEvents)
 lenghtEvents = listKeys.length;
 
 for (let i=0;i<lenghtEvents;i++){
-  
-  key = String(listKeys[i]);
+  console.log("type of list" + typeof listKeys[i]+ " "+ listKeys[i];
+  key =listKeys[i];
   time = document.getElementById(key);
 timeId = String(time.id);
-document.getElementById(key).innerHTML=myEvents[timeId];
+time.innerHTML=myEvents[timeId];
 
 }
 
