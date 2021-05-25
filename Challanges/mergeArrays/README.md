@@ -8,7 +8,10 @@ Create a function that will receive two arrays of numbers as arguments and retur
 
 
 var ar1 = [1, 2, 3, 4, 5];
+
 var ar2 = [5, 9, 6, 2];
+
+
 var ar3 = mergeExclusive(ar1, ar2);
 
 ar3 should be equal to = [1, 3, 4, 9, 6]
