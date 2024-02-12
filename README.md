@@ -1,2 +1,4 @@
-# JavaScript
-In order to  improve my JS skills I decided to create a directory to put some random things that were useful for me to learn this language. 
+## JavaScript
+
+This repo has many different tasks and examples of applications using Javascript which are used for training and learning.
+
